@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spinal X-ray Segmentation — Nonthpawit Soongchaiyaphom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="logo" href="../index.html"><span class="dot"></span>N.SOONGCHAIYAPHOM</a>
+      <div class="navlinks">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="breadcrumb">
+    <a href="../index.html">Home</a><span>/</span><a href="../index.html#projects">Projects</a><span>/</span><span>Spinal X-ray Segmentation</span>
+  </div>
+</div>
+
+<section class="proj-hero" style="padding-bottom:64px;">
+  <div class="wrap">
+    <div class="proj-index">[ 001 ]</div>
+    <h1>Spinal X-ray Segmentation</h1>
+    <p class="proj-summary">A computer vision pipeline that classifies individual vertebrae (T1 to L5) from spinal X-rays, built during a research assistantship at King Chulalongkorn Memorial Hospital.</p>
+    <div class="proj-stack"><span>Python</span><span>OpenCV</span><span>PyTorch</span><span>Optuna</span><span>CLAHE</span></div>
+  </div>
+</section>
+
+<section class="proj-body">
+  <div class="wrap">
+    <div class="proj-body-grid">
+      <div class="proj-side">
+        <div class="meta-row">
+          <span class="k">Role</span>
+          <span class="v">Assistant Researcher</span>
+        </div>
+        <div class="meta-row">
+          <span class="k">Organization</span>
+          <span class="v">King Chulalongkorn Memorial Hospital</span>
+        </div>
+        <div class="meta-row">
+          <span class="k">Timeline</span>
+          <span class="v">06.2026 — 08.2026</span>
+        </div>
+        <div class="meta-row">
+          <span class="k">Stack</span>
+          <span class="v">Python · OpenCV · PyTorch · Optuna · CLAHE</span>
+        </div>
+      </div>
+      <div class="proj-content">
+        <div>
+          <h2 class="subhead">Overview</h2>
+          <p>The goal was to take raw spinal X-ray images and reliably segment and classify each vertebra from T1 down to L5, a task that's normally done manually by radiologists. I focused on the image preprocessing and model-tuning side of the pipeline: getting noisy clinical scans into a state where a segmentation model could actually learn useful boundaries, then squeezing out extra accuracy through systematic hyperparameter search.</p>
+        </div>
+        <div>
+          <h2 class="subhead">Highlights</h2>
+          <ul><li>Implemented computer vision pipelines for medical image segmentation of spinal X-rays to classify individual vertebrae (T1 to L5).</li><li>Enhanced image quality using CLAHE (contrast-limited adaptive histogram equalization) and morphological dilation to make vertebral boundaries easier for the model to learn.</li><li>Trained rectangular pre-trained models tuned with Optuna hyperparameter optimization to improve segmentation accuracy.</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="proj-media frame">
+      <div class="c2 grid-inner">
+        <!-- To add screenshots: drop 4 files at images/spinal-xray-segmentation-1.jpg .. images/spinal-xray-segmentation-4.jpg -->
+        <div class="grid-cell">
+          <img src="../images/spinal-xray-segmentation-1.jpg" alt="Spinal X-ray Segmentation photo 1"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder" style="display:none;">
+            <div class="ph-icon">+</div>
+            <div class="ph-label">images/spinal-xray-segmentation-1.jpg</div>
+          </div>
+        </div><div class="grid-cell">
+          <img src="../images/spinal-xray-segmentation-2.jpg" alt="Spinal X-ray Segmentation photo 2"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder" style="display:none;">
+            <div class="ph-icon">+</div>
+            <div class="ph-label">images/spinal-xray-segmentation-2.jpg</div>
+          </div>
+        </div><div class="grid-cell">
+          <img src="../images/spinal-xray-segmentation-3.jpg" alt="Spinal X-ray Segmentation photo 3"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder" style="display:none;">
+            <div class="ph-icon">+</div>
+            <div class="ph-label">images/spinal-xray-segmentation-3.jpg</div>
+          </div>
+        </div><div class="grid-cell">
+          <img src="../images/spinal-xray-segmentation-4.jpg" alt="Spinal X-ray Segmentation photo 4"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder" style="display:none;">
+            <div class="ph-icon">+</div>
+            <div class="ph-label">images/spinal-xray-segmentation-4.jpg</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="proj-nav">
+    <a class="btn btn-outline" href="sponsorship-hr-automation.html">← Sponsorship HR Automation</a>
+    <a class="btn btn-solid" href="../index.html#projects">All projects</a>
+    <a class="btn btn-outline" href="rtsp-surveillance-platform.html">RTSP Surveillance Platform →</a>
+  </div>
+</div>
+
+<footer style="border-bottom:none;">
+  <div class="wrap">
+    <div class="foot-bottom">
+      <span>© 2026 NONTHPAWIT SOONGCHAIYAPHOM</span>
+      <span>BUILT WITH CLAUDE</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

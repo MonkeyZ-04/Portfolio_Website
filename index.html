@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nonthpawit Soongchaiyaphom — Computer Vision & Full-Stack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="logo" href="index.html"><span class="dot"></span>N.SOONGCHAIYAPHOM</a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Bangkok, Thailand — Computer Science, Chulalongkorn Univ.</div>
+        <h1 class="name">Nonthpawit<br>Soongchaiyaphom</h1>
+        <p class="role-line">Final-year CS student building <strong>computer vision pipelines</strong> and <strong>full-stack platforms</strong> — from spinal X-ray segmentation to real-time surveillance systems.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-solid">View work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-panel frame">
+        <div class="c2">
+        <div class="inner">
+          <!-- To add your photo: drop a file at images/profile.jpg (or edit the src below). -->
+          <img class="hero-photo" src="images/profile.jpg" alt="Nonthpawit Soongchaiyaphom"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder">
+            <div class="ph-icon">+</div>
+            <div class="ph-label">Add your photo<br><span class="ph-path">images/profile.jpg</span></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="head">About</h2>
+      <span class="head-num">01 / summary</span>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>I'm a final-year Computer Science student at Chulalongkorn University with hands-on experience building end-to-end AI and full-stack solutions — from computer vision pipelines for medical image segmentation to real-time surveillance platforms.</p>
+        <p>I like bridging AI models with robust web platforms: taking a detection or segmentation model from notebook to something deployed, monitored, and usable by people who aren't ML engineers.</p>
+      </div>
+      <div class="about-meta">
+        <div class="meta-row">
+          <span class="k">Education</span>
+          <span class="v">B.S. Computer Science<br>Chulalongkorn University</span>
+        </div>
+        <div class="meta-row">
+          <span class="k">Expected Graduation</span>
+          <span class="v">2027</span>
+        </div>
+        <div class="meta-row">
+          <span class="k">Based in</span>
+          <span class="v">Bangkok, Thailand</span>
+        </div>
+        <div class="meta-row">
+          <span class="k">Focus</span>
+          <span class="v">Computer Vision · Full-Stack · Automation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="head">Experience</h2>
+      <span class="head-num">02 / work history</span>
+    </div>
+    <div class="timeline">
+      <a class="tl-item" href="spinal-xray-segmentation.html">
+        <div class="tl-date">06.2026 — 08.2026</div>
+        <div>
+          <div class="tl-role">Assistant Researcher</div>
+          <div class="tl-org"><span>King Chulalongkorn Memorial Hospital</span> · Bangkok (On-site)</div>
+          <ul>
+            <li>Implemented computer vision pipelines for medical image segmentation of spinal X-rays to classify individual vertebrae (T1 to L5).</li>
+            <li>Enhanced image quality using CLAHE and morphological dilation, and trained rectangular pre-trained models tuned with Optuna hyperparameter optimization.</li>
+          </ul>
+          <div class="tl-link-row"><span>Read more</span><span class="arrow">→</span></div>
+        </div>
+      </a>
+      <a class="tl-item" href="rtsp-surveillance-platform.html">
+        <div class="tl-date">06.2025 — 07.2025</div>
+        <div>
+          <div class="tl-role">Data Analyst & AI Intern</div>
+          <div class="tl-org"><span>SKY AI</span> · Bangkok (On-site)</div>
+          <ul>
+            <li>Developed a full-stack RTSP surveillance platform (React, Node.js, PostgreSQL) with interactive detection zones using Konva.js and FFmpeg.</li>
+            <li>Designed real-time Grafana dashboards and automated data workflows using Google Apps Script and Apache ECharts.</li>
+          </ul>
+          <div class="tl-link-row"><span>Read more</span><span class="arrow">→</span></div>
+        </div>
+      </a>
+      <a class="tl-item" href="yolov8-cctv-detection.html">
+        <div class="tl-date">06.2024 — 07.2024</div>
+        <div>
+          <div class="tl-role">Data Science & AI Intern</div>
+          <div class="tl-org"><span>Metthier</span> · Bangkok (On-site)</div>
+          <ul>
+            <li>Deployed YOLOv8 human detection models for CCTV monitoring via Docker containers and MQTT for real-time data communication.</li>
+            <li>Built an NLP tool to detect illicit terminology in text data and continuously monitored models to refine detection accuracy.</li>
+            <li>Authored technical documentation for Dahua camera integrations, bridging technical processes for non-technical stakeholders.</li>
+          </ul>
+          <div class="tl-link-row"><span>Read more</span><span class="arrow">→</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="activities">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="head">Activities</h2>
+      <span class="head-num">03 / leadership</span>
+    </div>
+    <div class="activity-stack">
+      <a class="activity-card frame" href="sponsorship-hr-automation.html"><div class="c2" style="display:contents;">
+        <div class="tl-date">01.2025 — Present</div>
+        <div>
+          <div class="tl-role">Head of IT</div>
+          <div class="tl-org"><span>Hill Tribe Club</span> · CSR</div>
+          <ul>
+            <li>Led an interview management web app for volunteer recruitment, cutting duplicate data entry and giving the committee a systematic way to record applicant evaluations.</li>
+            <li>Replaced manual processes with automation scripts, speeding up internal workflows and reducing human error.</li>
+          </ul>
+          <div class="tl-link-row"><span>Read more</span><span class="arrow">→</span></div>
+        </div>
+      </div></a>
+      <a class="activity-card frame" href="head-of-sponsorship.html"><div class="c2" style="display:contents;">
+        <div class="tl-date">01.2025 — Present</div>
+        <div>
+          <div class="tl-role">Head of Sponsorship</div>
+          <div class="tl-org"><span>Hill Tribe Club</span> · CSR</div>
+          <ul>
+            <li>Worked cross-functionally with the IT role, using automation scripts to manage sponsor outreach, document prep, and status tracking.</li>
+            <li>Planned and secured funding and in-kind support so each camp had enough resources for infrastructure, supplies, and community activities.</li>
+          </ul>
+          <div class="tl-link-row"><span>Read more</span><span class="arrow">→</span></div>
+        </div>
+      </div></a>
+      <a class="activity-card frame" href="head-of-community-relations.html"><div class="c2" style="display:contents;">
+        <div class="tl-date">Past role</div>
+        <div>
+          <div class="tl-role">Head of Community Relations</div>
+          <div class="tl-org"><span>Hill Tribe Club</span> · CSR</div>
+          <ul>
+            <li>Designed volunteer activities around each community's culture and real needs, and acted as the main liaison with village leaders in the field.</li>
+            <li>Drafted in-camp announcements on conduct and cultural precautions for all participants.</li>
+          </ul>
+          <div class="tl-link-row"><span>Read more</span><span class="arrow">→</span></div>
+        </div>
+      </div></a>
+      <a class="activity-card frame" href="head-of-transportation-logistics.html"><div class="c2" style="display:contents;">
+        <div class="tl-date">Past role</div>
+        <div>
+          <div class="tl-role">Head of Transportation & Logistics</div>
+          <div class="tl-org"><span>Hill Tribe Club</span> · CSR</div>
+          <ul>
+            <li>Planned travel routes into remote hill areas, evaluating road conditions and rest stops for participant safety.</li>
+            <li>Coordinated vehicle providers and controlled the movement of volunteers and supplies from meeting point to campsite.</li>
+          </ul>
+          <div class="tl-link-row"><span>Read more</span><span class="arrow">→</span></div>
+        </div>
+      </div></a>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="head">Selected Projects</h2>
+      <span class="head-num">04 / builds</span>
+    </div>
+    <div class="proj-grid">
+      <a class="proj-card frame" href="spinal-xray-segmentation.html"><div class="c2">
+        <div class="proj-index">[ 001 ]</div>
+        <h3>Spinal X-ray Segmentation</h3>
+        <p>CV pipeline classifying individual vertebrae (T1–L5) from X-rays, with CLAHE enhancement and Optuna-tuned models.</p>
+        <div class="proj-stack"><span>Python</span><span>OpenCV</span><span>PyTorch</span><span>Optuna</span></div>
+        <div class="proj-link-row"><span>Read case study</span><span class="arrow">→</span></div>
+      </div></a>
+      <a class="proj-card frame" href="rtsp-surveillance-platform.html"><div class="c2">
+        <div class="proj-index">[ 002 ]</div>
+        <h3>RTSP Surveillance Platform</h3>
+        <p>Full-stack platform with interactive detection zones drawn over live camera feeds, streamed via FFmpeg.</p>
+        <div class="proj-stack"><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Konva.js</span></div>
+        <div class="proj-link-row"><span>Read case study</span><span class="arrow">→</span></div>
+      </div></a>
+      <a class="proj-card frame" href="yolov8-cctv-detection.html"><div class="c2">
+        <div class="proj-index">[ 003 ]</div>
+        <h3>YOLOv8 CCTV Detection</h3>
+        <p>Human detection models deployed via Docker for CCTV monitoring, communicating in real time over MQTT.</p>
+        <div class="proj-stack"><span>YOLOv8</span><span>Docker</span><span>MQTT</span></div>
+        <div class="proj-link-row"><span>Read case study</span><span class="arrow">→</span></div>
+      </div></a>
+      <a class="proj-card frame" href="sponsorship-hr-automation.html"><div class="c2">
+        <div class="proj-index">[ 004 ]</div>
+        <h3>Sponsorship HR Automation</h3>
+        <p>Web app + scripted document automation streamlining interviews and sponsorship data collection for Hill Tribe Club.</p>
+        <div class="proj-stack"><span>JavaScript</span><span>Google Apps Script</span></div>
+        <div class="proj-link-row"><span>Read case study</span><span class="arrow">→</span></div>
+      </div></a>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="head">Skills</h2>
+      <span class="head-num">05 / toolkit</span>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-col">
+        <h3>Languages</h3>
+        <div class="chip-list">
+          <span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">Java</span>
+          <span class="chip">SQL</span><span class="chip">C++</span><span class="chip">F#</span>
+        </div>
+      </div>
+      <div class="skill-col">
+        <h3>Frameworks & Libraries</h3>
+        <div class="chip-list">
+          <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">YOLO</span>
+          <span class="chip">OpenCV</span><span class="chip">PyTorch</span><span class="chip">TensorFlow</span>
+          <span class="chip">Pandas</span><span class="chip">Scikit-learn</span>
+        </div>
+      </div>
+      <div class="skill-col">
+        <h3>Tools & Platforms</h3>
+        <div class="chip-list">
+          <span class="chip">Docker</span><span class="chip">Git</span><span class="chip">PostgreSQL</span>
+          <span class="chip">Firebase</span><span class="chip">Grafana</span><span class="chip">MQTT</span>
+          <span class="chip">Google Apps Script</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact" style="border-bottom:none;">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <div class="eyebrow">06 / contact</div>
+        <div class="contact-lead">Let's build something together.</div>
+      </div>
+      <div class="contact-list">
+        <a href="mailto:nonthpawit2547@gmail.com"><span class="k">Email</span><span>nonthpawit2547@gmail.com</span></a>
+        <a href="tel:0804201156"><span class="k">Phone</span><span>080 420 1156</span></a>
+        <a href="https://linkedin.com/in/nonthpawits" target="_blank" rel="noopener"><span class="k">LinkedIn</span><span>linkedin.com/in/nonthpawits</span></a>
+        <a href="https://github.com/MonkeyZ-04" target="_blank" rel="noopener"><span class="k">GitHub</span><span>github.com/MonkeyZ-04</span></a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 NONTHPAWIT SOONGCHAIYAPHOM</span>
+      <span>BUILT WITH CLAUDE</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
